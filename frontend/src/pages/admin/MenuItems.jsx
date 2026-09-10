@@ -25,7 +25,7 @@ function MenuItems() {
             try {
 
                 const response =
-                    await api.get("/menu-items");
+                    await api.get("/api/menu-items");
 
 
                 setMenuItems(
