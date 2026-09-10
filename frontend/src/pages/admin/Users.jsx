@@ -25,7 +25,7 @@ function Users() {
 
                 const response =
                     await api.get(
-                        "/users",
+                        "/api/users",
                         {
                             headers: {
                                 Authorization: `Bearer ${token}`
