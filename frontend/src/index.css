@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Overall Page */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f8f8f8;
+  color: #333333;
+}
+
+/* Remove default link styling */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Buttons */
+button {
+  font-family: inherit;
+}
+
+/* Images */
+img {
+  max-width: 100%;
+  display: block;
+}
